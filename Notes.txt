@@ -1,0 +1,162 @@
+FSDI-114 Notes
+
+
+An algorithm is correct if you repeat the steps correctly you will always get the same result.
+
+A hash function is an algorithm.
+
+Built in Data Structures:
+	List, Tuple, Dictionary, Set
+
+User-Defined Data Structures
+	Stack, Tree, Queue, Linked List, HashMap
+		Singly Linked List, Doublely Linked List
+			Tree problems are more for computer scientists and researchers.  Perhaps SysOps
+			Graph problems are also pretty unheard for most full stack developers
+
+
+Python range doesn't include final range number. so 10 is 0-9  (unless defined think of it like a base number system.)
+
+recursive function calls itself at least once
+	and it should always have a base-case or exit condition.
+		Sacrifice memory for processing power:
+			Python has a maximum recursion depth lock:
+				Somewhere between 300 and 700.
+
+gaussian optimal formula
+	(n*(n+1))/2
+
+Algorithm analysis is a mathematical approach to undertstanding how algorithms grow over time.  (in time and space).
+	'space' in this contect is "memory" or Ram
+
+		Empirical Analysys: this is system specific and it i unrealiable to just measure run time in this way.
+
+	Worst-case gives an upper bound on the running time for any input.  Knowing it provides a guarantee that the algorithm iwll never take any longer.
+	
+	Average-case is often roughly as bad as the worst case.
+		scope of avg case is limited and nor very meaningful.  Even agreeing on average is diffcult.B
+
+Big O order of growth: Asymptoticial, Time Complexity
+	running time of an algorithm increases as the size of the input increases the limit as the size of the input increases without bound.
+	basically how the algorithm scales.
+
+Big O of N....T(n)
+
+https://www.bigocheatsheet.com/
+O(n!)
+O(2powerofN)
+O(Ntothe2power)
+
+
+
+Homework: Why doesn't Python have arrays?  Instead it has Lists
+
+
+Arrays store date in contiguous memory...Lists store it in whatever blocks are available.
+	Course is not a course on computer architecture or computer organization.
+		however we will need to understand how computers work in order to understand what algorithms are best
+			Even at a lower level this might not be self-evident.
+
+INSTALLING JUPYTER:
+	JUPYTER IS A FINISHED PRODUCT:
+		You can collaborate and share info.  Most people who use Jupyter are data scientists and are not good at computers.
+		-Built on Tornado
+		-We will use it to run and annotate code and keep records.
+		-Main interface is just a GI of the directory.  
+			Running
+				Terminals
+					No need for us as we have our own terminal and it actually 
+			Notebooks:
+				IPNB
+					IronPythonNotebook Primary way we will use this.
+			Clusters:
+				We have no need for parallel processing
+		
+	create new DIR
+	go into new DIR
+	install new venv
+		python3 -m venv venv
+		activate 
+			source venv/bin/activate
+	install JUPITER
+		pip3 install jupyter
+			every class will use a new notebook file
+			*Same repo each class.
+		2 ways to run notebooks
+			jupyter-notebook
+			python3 -m notebook
+
+ON Jupyter website click 
+	NEW
+		Python3(pykernel)
+		change name by clicking on top unnamed.
+
+		If it crashes:
+			Kernel:
+				Interrupt 
+				Restart
+	Cell Celltype Markdown
+
+		ANYONE CAN CODE....DEVELOPERS CAN SOLVE COMPLEX PROBLEMS WITH CODE
+
+UML Uniform Modeling Language
+	Learn later for correct symbols etc for flow charts
+
+
+
+AAA Approacth
+
+Assessment,Assembly, Actoin
+	Assessment
+		Asking questions figuring out parameters
+	Assembly
+		Flow Charts and Diagrams
+		Pseudocode (fake code so you don't get stuck on syntax)
+		Desk Checking (
+		
+
+
+how to solve any problem G Prolla
+
+Lots of people fail tests by forgetting whether strings are perfect matches or not.
+They forget about upper case and spaces etc when talking about characters.
+
+
+
+assessment and assembly phase of homework:
+assert are_anagrams("cars", "scar") == True
+assert are_anagrams("cars", "ccar") == False
+
+cars 3,1,18,19 = 41
+
+bass 2,1,19,19 = 41
+
+find password_reset_email.html from django on github
+
+security through security
+
+➜  ~ Code/SDGKU/FSDI_114
+➜  FSDI_114 git:(main) source venv/bin/activate
+(venv) ➜  FSDI_114 git:(main) jupyter-notebook
+
+
+Stacks
+	ordered collection of items where addition and removal of items always takes place at the same end.
+		Pringles can.  The top of the can is know as the "top".
+		the bottom is know as the "base".  LIFO Last-In-First-Out
+		Examples: Back or Forward buttons on browsers, 
+		1 2 3 4 in....to pop out ...4 3 2 1.
+		Push to insert an item.  Pop to remove an item.  Pop operations both Return a value AND REMOVES it from collection.
+		Pop is also know to be a destructive operation as it deletes data.
+
+
+
+# for dictionaries position is irrelevant.  
+
+Idempotence is the property of certain operations in mathematics
+# and computer science whereby they can be applied multiple times without changing the result.
+
+[] is used for python lists
+
+
+
