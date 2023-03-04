@@ -1,82 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-03-04T08:23:20.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="_4Z9_RLaRYjHzrNRkp3c" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-04T20:25:12.382Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="oAgdk-hsozwJW6_JskbV" version="21.0.2" type="github">
   <diagram name="Page-1" id="iRhx-aNdycyiNb6yXR51">
-    <mxGraphModel dx="989" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1886" dy="1911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-1" value="Create Definition using A and B as Strings" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="60" y="-1080" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-2" value="Create a python function named are_anagrams with parameters A and B (of string type.&lt;br&gt;&lt;br&gt;Function will determine whether those two string parameters are Anagrams:&lt;br&gt;Our definition of anagram is limited to:&lt;br&gt;1.) The strings are the exact same length.&lt;br&gt;2.) They use the exact same characters, the same amount of times.&lt;br&gt;&lt;br&gt;Steps required:&lt;br&gt;&lt;br&gt;&amp;nbsp;Check if A and B are equal lenghts&lt;br&gt;&lt;br&gt;Characters are case sensitive&lt;br&gt;&lt;br&gt;Individual characters counts are performed for each string and compared to the other string.&lt;br&gt;&lt;br&gt;if Any of the above steps are not true: return False&lt;br&gt;&lt;br&gt;only if all&amp;nbsp; of the above steps are true return True&lt;br&gt;&lt;br&gt;I&#39;m thinking that it makes sense not to eliminate the check to see if characters are exact matches before moving on to exact character counts.&lt;br&gt;&lt;br&gt;Given an extremely large string it would be a cost benefit to end the function early before a count if there are no matches for a given character.&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="-840" width="385" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-4" value="&lt;h1&gt;Anagram_Checker&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-1090" width="240" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-5" value="return False" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="250" y="-955" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-6" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Are strings A and B&lt;br&gt;&amp;nbsp;equal lengths?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="65" y="-990" width="115" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-11" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;does string B &lt;br&gt;contain exact current character from string&lt;br&gt;&amp;nbsp;A?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="62.5" y="-690" width="117.5" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-12" value="&lt;font size=&quot;1&quot;&gt;does&lt;br&gt;&amp;nbsp;the count in string &lt;br&gt;A and B match for the exact&amp;nbsp; currently selected character from&lt;br&gt;&amp;nbsp;string A?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="36.25" y="-510" width="170" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-13" value="return False" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="260" y="-655" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-14" value="return False" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="270" y="-450" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-16" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="_8RcxRiG8b48MhW-PYv1-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="122" y="-870" as="sourcePoint" />
-            <mxPoint x="122" y="-809" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="_8RcxRiG8b48MhW-PYv1-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="122" y="-870" as="sourcePoint" />
-            <mxPoint x="122" y="-809" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-19" value="Yes" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_8RcxRiG8b48MhW-PYv1-18">
+        <mxCell id="eHUS5e4l3o7nMP49U_oe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8RcxRiG8b48MhW-PYv1-1" target="_8RcxRiG8b48MhW-PYv1-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-10" value="Start &quot;for&quot; loop for string A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-1" value="Create Definition using A and B as Strings" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="60" y="-1100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-2" value="Create a python function named are_anagrams with parameters A and B (of string type.&lt;br&gt;&lt;br&gt;Function will determine whether those two string parameters are Anagrams:&lt;br&gt;Our definition of anagram is limited to:&lt;br&gt;1.) The strings are the exact same length.&lt;br&gt;2.) They use the characters characters, the same amount of times.&lt;br&gt;&lt;br&gt;Steps required:&lt;br&gt;Characters are not case sensitive&lt;br&gt;&lt;br&gt;Individual characters counts are performed for each string and compared to the other string.&lt;br&gt;&lt;br&gt;if Any of the above steps are not true: return False&lt;br&gt;&lt;br&gt;only if all&amp;nbsp; of the above steps are true return True&lt;br&gt;&lt;br&gt;I&#39;m thinking that it makes sense not to eliminate the check to see if characters are exact matches before moving on to exact character counts.&lt;br&gt;&lt;br&gt;Given an extremely large string it would be a cost benefit to end the function early before a count if there are no matches for a given character.&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="435" y="-830" width="385" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-4" value="&lt;h1&gt;Anagram_Checker&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="-1075" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-5" value="return False" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="250" y="-955" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-6" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Are strings A and B&lt;br&gt;&amp;nbsp;equal lengths?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="65" y="-990" width="115" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-11" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;does string B &lt;br&gt;contain current character from string&lt;br&gt;&amp;nbsp;A?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="62.5" y="-690" width="117.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-12" value="&lt;font size=&quot;1&quot;&gt;does&lt;br&gt;&amp;nbsp;the count in string &lt;br&gt;A and B match for the currently selected character from&lt;br&gt;&amp;nbsp;string A?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="36.25" y="-510" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-13" value="return False" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="260" y="-655" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-14" value="return False" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="270" y="-450" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-16" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" parent="1" source="_8RcxRiG8b48MhW-PYv1-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="122" y="-870" as="sourcePoint" />
+            <mxPoint x="122" y="-809" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-18" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="_8RcxRiG8b48MhW-PYv1-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="122" y="-870" as="sourcePoint" />
+            <mxPoint x="122" y="-809" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-19" value="Yes" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="_8RcxRiG8b48MhW-PYv1-18" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-10" value="Start &quot;for&quot; loop for string A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="62.5" y="-810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-20" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-20" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="122" y="-690" as="sourcePoint" />
             <mxPoint x="122" y="-689" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-21" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="122" y="-750" as="sourcePoint" />
             <mxPoint x="122" y="-690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-26" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-26" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120.75" y="-280" as="sourcePoint" />
             <mxPoint x="120.75" y="-279" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-27" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120.75" y="-340" as="sourcePoint" />
             <mxPoint x="120.75" y="-280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-28" value="Yes" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_8RcxRiG8b48MhW-PYv1-27">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-28" value="Yes" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="_8RcxRiG8b48MhW-PYv1-27" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-29" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-29" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250.5" y="-931" as="sourcePoint" />
             <mxPoint x="250.5" y="-930" as="targetPoint" />
@@ -85,16 +88,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-30" value="No" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-30" value="No" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="-930" as="sourcePoint" />
             <mxPoint x="250" y="-930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-31" value="No" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_8RcxRiG8b48MhW-PYv1-30">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-31" value="No" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="_8RcxRiG8b48MhW-PYv1-30" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-33" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-33" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270.5" y="-426" as="sourcePoint" />
             <mxPoint x="270.5" y="-425" as="targetPoint" />
@@ -103,16 +106,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-34" value="No" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-34" value="No" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="-425" as="sourcePoint" />
             <mxPoint x="270" y="-425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-35" value="No" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_8RcxRiG8b48MhW-PYv1-34">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-35" value="No" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="_8RcxRiG8b48MhW-PYv1-34" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-36" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_8RcxRiG8b48MhW-PYv1-13">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-36" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="_8RcxRiG8b48MhW-PYv1-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="253" y="-631" as="sourcePoint" />
             <mxPoint x="253" y="-630" as="targetPoint" />
@@ -121,28 +124,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-37" value="No" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-37" value="No" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="182.5" y="-630" as="sourcePoint" />
             <mxPoint x="260" y="-630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-38" value="No" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_8RcxRiG8b48MhW-PYv1-37">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-38" value="No" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="_8RcxRiG8b48MhW-PYv1-37" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-39" value="If all characters for String A pass entire &quot;for&quot; loop series:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;return True" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-39" value="If all characters for String A pass entire &quot;for&quot; loop series:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;return True" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="36.25" y="-280" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-43" value="&lt;h1&gt;&lt;font color=&quot;#ff0000&quot;&gt;I hate to be that guy...&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;But in class, you mentioned a prior student&#39;s example of a creative solution to this problem that just used math.&lt;br&gt;&lt;br&gt;i may be mistaken,&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;But I believe the explanation you gave was that they assigned a number value to each letter based on it&#39;s position in the alphabet.&lt;br&gt;&lt;br&gt;You gave a=1, b=2 etc as the example.&lt;br&gt;&lt;br&gt;The student then explained that they merely added up all character values in the strings and compared the results and if they matched they had correctly identified anagrams.&lt;br&gt;&lt;br&gt;I believe this approach fails some tests.&amp;nbsp; For example:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;c&amp;nbsp; &amp;nbsp;a&amp;nbsp; &amp;nbsp;r&amp;nbsp; &amp;nbsp; s&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;would be represented numerically as:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;3&amp;nbsp; &amp;nbsp;1&amp;nbsp; 18&amp;nbsp; 19&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -spaces included just for clarity.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;for a total of 41&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;but using the same order-based numbering system&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;b&amp;nbsp; &amp;nbsp;a&amp;nbsp; &amp;nbsp;s&amp;nbsp; &amp;nbsp; s&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;2&amp;nbsp; &amp;nbsp;1&amp;nbsp; 19&amp;nbsp; 19&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;also returns a total of 41.even with the same overall character count.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;You could try spacing the assigned numbering out...for example: a=1, b=100, c=1000 d=10000 and so on but even that would fail eventually unless the string size for the parameters was limited. So while this approach could work in smaller allowed string counts, it is probably not the best solution I could find here.&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="435" y="-600" width="390" height="580" as="geometry" />
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-43" value="&lt;h1&gt;&lt;font color=&quot;#ff0000&quot;&gt;I hate to be that guy...&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;But in class, you mentioned a prior student&#39;s example of a creative solution to this problem that just used math.&lt;br&gt;&lt;br&gt;i may be mistaken,&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;But I believe the explanation you gave was that they assigned a number value to each letter based on it&#39;s position in the alphabet.&lt;br&gt;&lt;br&gt;You gave a=1, b=2 etc as the example.&lt;br&gt;&lt;br&gt;The student then explained that they merely added up all character values in the strings and compared the results and if they matched they had correctly identified anagrams.&lt;br&gt;&lt;br&gt;I believe this approach fails some tests.&amp;nbsp; For example:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;c&amp;nbsp; &amp;nbsp;a&amp;nbsp; &amp;nbsp;r&amp;nbsp; &amp;nbsp; s&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;would be represented numerically as:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;3&amp;nbsp; &amp;nbsp;1&amp;nbsp; 18&amp;nbsp; 19&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -spaces included just for clarity.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;for a total of 41&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;but using the same order-based numbering system&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;b&amp;nbsp; &amp;nbsp;a&amp;nbsp; &amp;nbsp;s&amp;nbsp; &amp;nbsp; s&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;2&amp;nbsp; &amp;nbsp;1&amp;nbsp; 19&amp;nbsp; 19&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;also returns a total of 41.even with the same overall character count.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;You could try spacing the assigned numbering out.and have a working solutino for a reasonably sized string count. For example: a=1, b=20, c=300 d=4000 and so on but even that would fail eventually with large enough string counts&amp;nbsp; unless the string size for the parameters was limited. So while this approach could work in realistically allowed string counts, it is probably not the best overall solution here.&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="432.5" y="-630" width="390" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8RcxRiG8b48MhW-PYv1-11" target="_8RcxRiG8b48MhW-PYv1-12">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_8RcxRiG8b48MhW-PYv1-11" target="_8RcxRiG8b48MhW-PYv1-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="-510" as="sourcePoint" />
             <mxPoint x="380" y="-510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_8RcxRiG8b48MhW-PYv1-52" value="Yes" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_8RcxRiG8b48MhW-PYv1-51">
+        <mxCell id="_8RcxRiG8b48MhW-PYv1-52" value="Yes" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="_8RcxRiG8b48MhW-PYv1-51" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
