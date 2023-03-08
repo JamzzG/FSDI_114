@@ -159,4 +159,18 @@ Idempotence is the property of certain operations in mathematics
 [] is used for python lists
 
 
+CLASS 3
+
+Node
+    Something that connects two things together.
+    In this instance it just refers to the one "above" it.  
+    
+Queues
+    The purpose is to manage finite resources and is a purposeful delay.
+    
+    First in First Out
+        Enqueue is adding something to the back of the line.
+        Dequeue at the front of the line...similar to pop
+    
+
 
